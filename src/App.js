@@ -10,8 +10,7 @@ function App() {
       <BrowserRouter>
       <First/>
       <Routes>
-        {/* <Route index element={<First />} /> */}
-        <Route  path="/second" element={<Second/>}/>
+         <Route index element={<First />} /> 
       </Routes>
       </BrowserRouter>
     </div>
